@@ -66,6 +66,9 @@ def calculate_stats(salaries):
     if not salaries:
         return None
 
+    q1 = int(np.quantile(salaries, 0.25))
+    q3 = int(np.quantile(salaries, 0.75))
+
     stats = {
         'count': len(salaries),
         'min': min(salaries),
@@ -73,8 +76,9 @@ def calculate_stats(salaries):
         'mean': int(statistics.mean(salaries)),
         'median': int(statistics.median(salaries)),
         'stdev': int(statistics.stdev(salaries)),
-        'q1': int(np.quantile(salaries, 0.25)),
-        'q3': int(np.quantile(salaries, 0.75))
+        'q1': q1,
+        'q3': q3,
+        'iqr': q3 - q1
     }
 
     return stats
@@ -94,13 +98,13 @@ def draw_salary_plots(salaries, stats, title):
     plt.boxplot(salaries, vert=True, patch_artist=True)
     plt.title('Распределение зарплат')
 
-    plt.text(1.1, stats['q1'], f"25% зарплат ≤ {stats['q1']:,}р".replace(',', ' '),
+    plt.text(1.1, stats['q1'], f"25% ≤ {stats['q1']:,}р".replace(',', ' '),
              va='center', fontsize=9)
-    plt.text(1.1, stats['q3'], f"75% зарплат ≤ {stats['q3']:,}р".replace(',', ' '),
+    plt.text(1.1, stats['q3'], f"75% ≤ {stats['q3']:,}р".replace(',', ' '),
              va='center', fontsize=9)
 
     plt.subplot(1, 3, 3)
-    n_bins = min(15, len(salaries) // 2)  # Автоподбор количества столбцов
+    n_bins = min(15, len(salaries) // 2)
     plt.hist(salaries, bins=n_bins, color='green', edgecolor='black', alpha=0.7)
 
     plt.axvline(stats['mean'], color='red', linestyle='--', label=f'Среднее ({stats["mean"]:,}р)')
@@ -131,7 +135,7 @@ def save_results(vacancies, stats, query, city_name):
             'total': len(vacancies)
         },
         'stats': stats,
-        'top_vacancies': sorted(vacancies, key=lambda x: x['salary'], reverse=True)[:50]  # Только топ 50
+        'top_vacancies': sorted(vacancies, key=lambda x: x['salary'], reverse=True)[:50]
     }
 
     try:
@@ -169,7 +173,8 @@ def main():
         print(f"Мин/Макс: {stats['min']:,} — {stats['max']:,} руб".replace(',', ' '))
         print(f"Средняя: {stats['mean']:,} руб".replace(',', ' '))
         print(f"Медиана: {stats['median']:,} руб".replace(',', ' '))
-        print(f"Разброс (стандартное отклонение): ±{stats['stdev']:,} руб".replace(',', ' '))
+        print(f"Стандартное отклонение: ±{stats['stdev']:,} руб".replace(',', ' '))
+        print(f"Межквартильный размах: {stats['iqr']:,} руб".replace(',', ' '))
         print(f"25% вакансий ≤ {stats['q1']:,} руб, 75% ≤ {stats['q3']:,} руб".replace(',', ' '))
 
         plot_title = f"Зарплаты '{query}' в {selected_city['name']}\n(найдено {stats['count']} вакансий)"
