@@ -143,7 +143,6 @@ def save_results(vacancies, stats, query, city_name):
 
 
 def main():
-    print("=== Анализ зарплат с HeadHunter ===")
     print("\nДоступные города:")
     for num, city in CITIES.items():
         print(f"{num} — {city['name']}")
@@ -155,10 +154,7 @@ def main():
             raise ValueError("Нет такого города")
 
         query = input("Введите название профессии: ").strip()
-        if not query:
-            raise ValueError("Нужно ввести запрос")
 
-        print("\nСобираю данные...")
         vacancies = get_vacancies_from_hh(query, selected_city['code'])
 
         if not vacancies:
@@ -168,7 +164,7 @@ def main():
         salaries = [v['salary'] for v in vacancies]
         stats = calculate_stats(salaries)
 
-        print(f"\n=== Результаты для '{query}' в {selected_city['name']} ===")
+        print(f"\nРезультаты для '{query}' в {selected_city['name']}")
         print(f"Всего вакансий: {stats['count']}")
         print(f"Мин/Макс: {stats['min']:,} — {stats['max']:,} руб".replace(',', ' '))
         print(f"Средняя: {stats['mean']:,} руб".replace(',', ' '))
@@ -185,8 +181,6 @@ def main():
         print(f"\nОшибка: {e}")
     except Exception as e:
         print(f"\nЧто-то пошло не так: {e}")
-    finally:
-        print("\nАнализ завершён!")
 
 
 if __name__ == '__main__':
