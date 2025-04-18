@@ -84,36 +84,63 @@ def calculate_stats(salaries):
     return stats
 
 
-def draw_salary_plots(salaries, stats, title):
-    plt.figure(figsize=(15, 6))
+def histogram(salaries, n_bins):
+    min_salary = min(salaries)
+    max_salary = max(salaries)
+    bin_width = (max_salary - min_salary) / n_bins
+    bins = [min_salary + i * bin_width for i in range(n_bins + 1)]
 
-    plt.subplot(1, 3, 1)
+    freq_counts = [0] * n_bins
+    for salary in salaries:
+        for i in range(n_bins):
+            if bins[i] <= salary < bins[i + 1]:
+                freq_counts[i] += 1
+                break
+
+    total = len(salaries)
+    prob_counts = [count / total for count in freq_counts]
+
+    return bins, freq_counts, prob_counts
+
+
+def draw_plots(salaries, stats, title):
+    plt.figure(figsize=(15, 10))
+
+    plt.subplot(2, 2, 1)
     plt.scatter(range(len(salaries)), salaries, alpha=0.6, color='blue')
     plt.title('Разброс зарплат')
     plt.xlabel('Номер вакансии')
     plt.ylabel('Рубли')
     plt.grid(True, alpha=0.3)
 
-    plt.subplot(1, 3, 2)
+    plt.subplot(2, 2, 2)
     plt.boxplot(salaries, vert=True, patch_artist=True)
     plt.title('Распределение зарплат')
-
     plt.text(1.1, stats['q1'], f"25% ≤ {stats['q1']:,}р".replace(',', ' '),
              va='center', fontsize=9)
     plt.text(1.1, stats['q3'], f"75% ≤ {stats['q3']:,}р".replace(',', ' '),
              va='center', fontsize=9)
 
-    plt.subplot(1, 3, 3)
     n_bins = min(15, len(salaries) // 2)
-    plt.hist(salaries, bins=n_bins, color='green', edgecolor='black', alpha=0.7)
+    bins, freq_counts, prob_counts = histogram(salaries, n_bins)
 
+    plt.subplot(2, 2, 3)
+    plt.bar(bins[:-1], freq_counts, width=(bins[1] - bins[0]), color='green', edgecolor='black', alpha=0.7)
     plt.axvline(stats['mean'], color='red', linestyle='--', label=f'Среднее ({stats["mean"]:,}р)')
     plt.axvline(stats['median'], color='blue', linestyle='-', label=f'Медиана ({stats["median"]:,}р)')
     plt.legend()
-
-    plt.title('Гистограмма зарплат')
+    plt.title('Частотная гистограмма зарплат')
     plt.xlabel('Диапазон зарплат')
     plt.ylabel('Количество вакансий')
+
+    plt.subplot(2, 2, 4)
+    plt.bar(bins[:-1], prob_counts, width=(bins[1] - bins[0]), color='purple', edgecolor='black', alpha=0.7)
+    plt.axvline(stats['mean'], color='red', linestyle='--', label=f'Среднее ({stats["mean"]:,}р)')
+    plt.axvline(stats['median'], color='blue', linestyle='-', label=f'Медиана ({stats["median"]:,}р)')
+    plt.legend()
+    plt.title('Вероятностная гистограмма зарплат')
+    plt.xlabel('Диапазон зарплат')
+    plt.ylabel('Вероятность')
 
     plt.suptitle(title, fontsize=14, fontweight='bold')
     plt.tight_layout()
@@ -178,7 +205,7 @@ def main():
         print(f"25% вакансий ≤ {stats['q1']:,} руб, 75% ≤ {stats['q3']:,} руб".replace(',', ' '))
 
         plot_title = f"Зарплаты '{query}' в {selected_city['name']}\n(найдено {stats['count']} вакансий)"
-        draw_salary_plots(salaries, stats, plot_title)
+        draw_plots(salaries, stats, plot_title)
 
         save_results(vacancies, stats, query, selected_city['name'])
 
