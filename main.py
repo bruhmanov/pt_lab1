@@ -1,5 +1,4 @@
 import requests
-from datetime import datetime
 import statistics
 import matplotlib.pyplot as plt
 import json
@@ -109,7 +108,6 @@ def empirical_cdf(salaries):
     return x, y
 
 def draw_plots(salaries, stats, title):
-    # Точечный график
     plt.figure(figsize=(8, 6))
     plt.scatter(range(len(salaries)), salaries, alpha=0.6, color='blue')
     plt.xlabel('Номер вакансии')
@@ -118,7 +116,6 @@ def draw_plots(salaries, stats, title):
     plt.grid(True, alpha=0.3)
     plt.show()
 
-    # Ящик с усами
     plt.figure(figsize=(8, 6))
     plt.boxplot(salaries, vert=True, patch_artist=True)
     plt.axhline(stats['q1'], color='orange', label='25% квартиль')
@@ -133,7 +130,6 @@ def draw_plots(salaries, stats, title):
     bins, freq_counts, prob_counts = histogram(salaries, n_bins)
     bin_width = bins[1] - bins[0]
 
-    # Частотная гистограмма
     plt.figure(figsize=(8, 6))
     plt.bar(bins[:-1], freq_counts, width=bin_width, color='green', edgecolor='black', alpha=0.7)
     plt.axvline(stats['mean'], color='red', linestyle='--', label=f'Среднее ({stats["mean"]:,} руб)')
@@ -146,12 +142,11 @@ def draw_plots(salaries, stats, title):
     plt.xlim(0, max(salaries) * 1.1)
     plt.show()
 
-    # Вероятностная гистограмма
     plt.figure(figsize=(8, 6))
     plt.bar(bins[:-1], prob_counts, width=bin_width, color='purple', edgecolor='black', alpha=0.7)
     plt.axvline(stats['mean'], color='red', linestyle='--', label=f'Среднее ({stats["mean"]:,} руб)')
     plt.axvline(stats['median'], color='blue', linestyle='-', label=f'Медиана ({stats["median"]:,} руб)')
-    x = np.linspace(0, max(salaries), 100)  # Начинаем нормальное распределение с 0
+    x = np.linspace(0, max(salaries), 100)
     norm_density = norm.pdf(x, stats['mean'], stats['stdev']) * bin_width
     plt.plot(x, norm_density, color='orange', label='Нормальное распределение')
     plt.legend()
@@ -162,7 +157,6 @@ def draw_plots(salaries, stats, title):
     plt.xlim(0, max(salaries) * 1.1)
     plt.show()
 
-    # Эмпирическая функция распределения
     plt.figure(figsize=(8, 6))
     x, y = empirical_cdf(salaries)
     plt.step(x, y, color='blue', label='ЭФР')
@@ -181,13 +175,12 @@ def save_results(vacancies, stats, query, city_name):
         print("Нет данных для сохранения")
         return
 
-    filename = f"hh_{query}_{city_name}_{datetime.now().strftime('%d%m%Y')}.json"
+    filename = f"hh_{query}_{city_name}.json"
 
     result = {
         'info': {
             'query': query,
             'city': city_name,
-            'date': datetime.now().strftime('%Y-%m-%d %H:%M'),
             'total': len(vacancies)
         },
         'stats': stats,

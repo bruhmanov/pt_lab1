@@ -1,0 +1,1953 @@
+{
+  "info": {
+    "query": "Python Разработчик",
+    "city": "Москва",
+    "total": 276
+  },
+  "stats": {
+    "count": 276,
+    "min": 33116,
+    "max": 800000,
+    "mean": 213244,
+    "variance": 12741706095,
+    "stdev": 112879,
+    "q1": 135000,
+    "q3": 250000,
+    "iqr": 115000,
+    "median": 200000
+  },
+  "vacancies": [
+    {
+      "title": "Python-разработчик",
+      "salary": 175000,
+      "link": "https://hh.ru/vacancy/121415232",
+      "company": "Первый Бит",
+      "date": "2025-06-06T11:47:26+0300"
+    },
+    {
+      "title": "Backend разработчик python (junior)",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/121211572",
+      "company": "BND LLC",
+      "date": "2025-06-05T10:55:26+0300"
+    },
+    {
+      "title": "Программист-разработчик",
+      "salary": 180000,
+      "link": "https://hh.ru/vacancy/121308292",
+      "company": "Благотворительный фонд Сила правых",
+      "date": "2025-06-03T19:00:28+0300"
+    },
+    {
+      "title": "Python developer (Senior)",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/121298906",
+      "company": "AYA Group",
+      "date": "2025-06-03T15:49:04+0300"
+    },
+    {
+      "title": "Prompt-engineer / Промт-инженер",
+      "salary": 125000,
+      "link": "https://hh.ru/vacancy/120824427",
+      "company": "Нейросети",
+      "date": "2025-06-05T15:05:41+0300"
+    },
+    {
+      "title": "Python (Django) backend разработчик",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/121156547",
+      "company": "Gorodissky IP Security",
+      "date": "2025-05-30T10:09:42+0300"
+    },
+    {
+      "title": "Python-разработчик (Linux / Highload инфраструктура)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121374665",
+      "company": "HR Prime",
+      "date": "2025-06-05T11:24:51+0300"
+    },
+    {
+      "title": "Разработчик искусственного интеллекта/python-backend",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/121321644",
+      "company": "Геномед",
+      "date": "2025-06-04T09:56:38+0300"
+    },
+    {
+      "title": "Python-разработчик (проект)",
+      "salary": 190000,
+      "link": "https://hh.ru/vacancy/121322229",
+      "company": "Хэндсапп",
+      "date": "2025-06-04T10:03:48+0300"
+    },
+    {
+      "title": "Backend-разработчик",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120642310",
+      "company": "ATF digital",
+      "date": "2025-05-16T15:49:21+0300"
+    },
+    {
+      "title": "Разработчик Python (Django, DRF)",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/121304275",
+      "company": "Фабрика Решений",
+      "date": "2025-06-03T16:55:41+0300"
+    },
+    {
+      "title": "Frontend-разработчик (Middle)",
+      "salary": 160000,
+      "link": "https://hh.ru/vacancy/120223072",
+      "company": "ВижнЛабс (VisionLabs)",
+      "date": "2025-06-02T13:09:19+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/120415611",
+      "company": "Soft Media Group",
+      "date": "2025-05-12T14:37:28+0300"
+    },
+    {
+      "title": "Сетевой инженер / Network Engineer (low-latency, RF)",
+      "salary": 800000,
+      "link": "https://hh.ru/vacancy/121399668",
+      "company": "International software development company",
+      "date": "2025-06-05T23:17:47+0300"
+    },
+    {
+      "title": "Python разработчик",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/121194709",
+      "company": "Павел",
+      "date": "2025-06-01T22:31:57+0300"
+    },
+    {
+      "title": "Веб-программист",
+      "salary": 109000,
+      "link": "https://hh.ru/vacancy/121170453",
+      "company": "Cetera",
+      "date": "2025-05-30T14:07:18+0300"
+    },
+    {
+      "title": "Младший аналитик",
+      "salary": 50000,
+      "link": "https://hh.ru/vacancy/121324871",
+      "company": "REMONT.IO",
+      "date": "2025-06-04T10:35:34+0300"
+    },
+    {
+      "title": "Программист-разработчик Python в Fintech-компанию",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/121258573",
+      "company": "FINAMP",
+      "date": "2025-06-06T07:12:31+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/120727123",
+      "company": "НТЦ АВАНГАРД",
+      "date": "2025-06-03T17:53:14+0300"
+    },
+    {
+      "title": "Middle+/Senior Python разработчик",
+      "salary": 340000,
+      "link": "https://hh.ru/vacancy/121233966",
+      "company": "Blue underlined link",
+      "date": "2025-06-05T16:14:01+0300"
+    },
+    {
+      "title": "Junior Python Разработчик",
+      "salary": 125000,
+      "link": "https://hh.ru/vacancy/120655087",
+      "company": "Батенев Родион Евгеньевич",
+      "date": "2025-05-17T12:12:37+0300"
+    },
+    {
+      "title": "Middle Python Developer",
+      "salary": 275000,
+      "link": "https://hh.ru/vacancy/121321052",
+      "company": "ЭНГРИ",
+      "date": "2025-06-04T09:49:54+0300"
+    },
+    {
+      "title": "Программист-разработчик (Python/Django) / Middle back-end developer",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121371863",
+      "company": "CATAPULTO.RU",
+      "date": "2025-06-05T10:45:09+0300"
+    },
+    {
+      "title": "Python backend-разработчик",
+      "salary": 140000,
+      "link": "https://hh.ru/vacancy/121419824",
+      "company": "NFCKEY",
+      "date": "2025-06-06T13:20:46+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 90000,
+      "link": "https://hh.ru/vacancy/120361928",
+      "company": "Кадровое агентство HireWay",
+      "date": "2025-05-11T17:58:03+0300"
+    },
+    {
+      "title": "Frontend-разработчик",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/120997264",
+      "company": "Протектор",
+      "date": "2025-05-26T18:32:33+0300"
+    },
+    {
+      "title": "Computer Vision/ML Engineer (Junior+)",
+      "salary": 175000,
+      "link": "https://hh.ru/vacancy/121292773",
+      "company": "Tevian (ООО Технологии видеоанализа)",
+      "date": "2025-06-06T15:14:49+0300"
+    },
+    {
+      "title": "QA Automation (Python) Engineer",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121202619",
+      "company": "DCloud",
+      "date": "2025-06-02T08:54:37+0300"
+    },
+    {
+      "title": "Системный аналитик",
+      "salary": 165000,
+      "link": "https://hh.ru/vacancy/121355168",
+      "company": "Soar high software",
+      "date": "2025-06-04T19:10:04+0300"
+    },
+    {
+      "title": "Backend Python разработчик (Middle+/Senior)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120967405",
+      "company": "Leads",
+      "date": "2025-06-04T11:24:45+0300"
+    },
+    {
+      "title": "Java Developer",
+      "salary": 135000,
+      "link": "https://hh.ru/vacancy/118602171",
+      "company": "Дартс рекрутинг сервисез",
+      "date": "2025-05-20T15:35:18+0300"
+    },
+    {
+      "title": "Аналитик в социально гуманитарной сфере",
+      "salary": 60000,
+      "link": "https://hh.ru/vacancy/121368825",
+      "company": "Общественная палата РФ",
+      "date": "2025-06-05T10:03:30+0300"
+    },
+    {
+      "title": "Middle Python/FastAPI developer",
+      "salary": 190000,
+      "link": "https://hh.ru/vacancy/120388731",
+      "company": "Хорьков Эдуард Вячеславович",
+      "date": "2025-05-12T10:36:59+0300"
+    },
+    {
+      "title": "Бизнес-аналитик",
+      "salary": 160000,
+      "link": "https://hh.ru/vacancy/120903064",
+      "company": "Soar high software",
+      "date": "2025-05-23T11:56:52+0300"
+    },
+    {
+      "title": "Python developer",
+      "salary": 180000,
+      "link": "https://hh.ru/vacancy/120583104",
+      "company": "АВ Софт",
+      "date": "2025-05-15T12:36:10+0300"
+    },
+    {
+      "title": "Python-разработчик (направление искусственного интеллекта)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/121306609",
+      "company": "Национальная Страховая Информационная Система",
+      "date": "2025-06-03T17:53:13+0300"
+    },
+    {
+      "title": "CRM-маркетолог (Email, Mindbox)",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/121309266",
+      "company": "CRMLOVE",
+      "date": "2025-06-03T20:51:57+0300"
+    },
+    {
+      "title": "Программист",
+      "salary": 50000,
+      "link": "https://hh.ru/vacancy/120937487",
+      "company": "Солюшен",
+      "date": "2025-05-25T07:20:10+0300"
+    },
+    {
+      "title": "Backend-разработчик",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120815708",
+      "company": "FLG",
+      "date": "2025-06-05T12:57:08+0300"
+    },
+    {
+      "title": "QA Инженер",
+      "salary": 160000,
+      "link": "https://hh.ru/vacancy/120493733",
+      "company": "Батенев Родион Евгеньевич",
+      "date": "2025-05-13T18:02:04+0300"
+    },
+    {
+      "title": "Специалист технической поддержки",
+      "salary": 70000,
+      "link": "https://hh.ru/vacancy/121208130",
+      "company": "Puzzle English",
+      "date": "2025-06-05T10:11:45+0300"
+    },
+    {
+      "title": "Frontend-разработчик",
+      "salary": 330000,
+      "link": "https://hh.ru/vacancy/121024362",
+      "company": "Sapiens solutions",
+      "date": "2025-06-05T11:56:24+0300"
+    },
+    {
+      "title": "Тестировщик ПО (QA-инженер)",
+      "salary": 170000,
+      "link": "https://hh.ru/vacancy/121119894",
+      "company": "Концерн Созвездие",
+      "date": "2025-05-29T11:45:42+0300"
+    },
+    {
+      "title": "Специалист по управлению витриной и качеству товарных данных (каталога)",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120556081",
+      "company": "Fashion Cute LLC, Представительство",
+      "date": "2025-05-14T18:44:45+0300"
+    },
+    {
+      "title": "Программист Python junior",
+      "salary": 115000,
+      "link": "https://hh.ru/vacancy/120970195",
+      "company": "CDNvideo (ООО СДН-видео)",
+      "date": "2025-06-04T11:53:52+0300"
+    },
+    {
+      "title": "Рython разработчик биржевых алгоритмов",
+      "salary": 90000,
+      "link": "https://hh.ru/vacancy/121390050",
+      "company": "ДенЛеДа",
+      "date": "2025-06-05T15:32:01+0300"
+    },
+    {
+      "title": "Middle+ Python Developer",
+      "salary": 260000,
+      "link": "https://hh.ru/vacancy/121142735",
+      "company": "Пикварио Технологии",
+      "date": "2025-05-29T17:25:26+0300"
+    },
+    {
+      "title": "SEO-специалист",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/121176218",
+      "company": "ПРАЙМ ВУД",
+      "date": "2025-05-30T15:49:38+0300"
+    },
+    {
+      "title": "Python Developer (Data) junior/middle",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/121138301",
+      "company": "Mindbox",
+      "date": "2025-06-05T20:14:21+0300"
+    },
+    {
+      "title": "Backend-разработчик",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120567192",
+      "company": "Вижнсервис",
+      "date": "2025-05-15T09:11:12+0300"
+    },
+    {
+      "title": "Intern ML Engineer / Junior Data Scientist (Специалист МО)",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/120707501",
+      "company": "Батенев Родион Евгеньевич",
+      "date": "2025-06-06T13:37:43+0300"
+    },
+    {
+      "title": "Backend-разработчик",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120901591",
+      "company": "Кибертех",
+      "date": "2025-05-23T11:35:23+0300"
+    },
+    {
+      "title": "Python Разработчик",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120494296",
+      "company": "Батенев Родион Евгеньевич",
+      "date": "2025-05-13T18:22:05+0300"
+    },
+    {
+      "title": "PHP-разработчик (Symfony)",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/121235137",
+      "company": "Гост",
+      "date": "2025-06-02T16:21:29+0300"
+    },
+    {
+      "title": "Инженер технической поддержки",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/120877804",
+      "company": "Латера",
+      "date": "2025-06-03T16:34:47+0300"
+    },
+    {
+      "title": "Prompt-engineer / Промт-инженер",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121120394",
+      "company": "Диджитал Форс",
+      "date": "2025-05-29T11:52:28+0300"
+    },
+    {
+      "title": "Тестировщик (QA инженер)",
+      "salary": 80000,
+      "link": "https://hh.ru/vacancy/120728351",
+      "company": "НДК",
+      "date": "2025-05-19T18:30:20+0300"
+    },
+    {
+      "title": "Инженер - разработчик С++",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/121289634",
+      "company": "ВК ИТС",
+      "date": "2025-06-06T14:48:02+0300"
+    },
+    {
+      "title": "Инженер по управлению данными / Data Engineer (DWH)",
+      "salary": 275000,
+      "link": "https://hh.ru/vacancy/121408249",
+      "company": "Бюро Цифровой Трансформации",
+      "date": "2025-06-06T09:52:34+0300"
+    },
+    {
+      "title": "Junior developer (разработчик Phyton)",
+      "salary": 70000,
+      "link": "https://hh.ru/vacancy/120345556",
+      "company": "PANCAKE PRODUCTION",
+      "date": "2025-05-08T13:23:59+0300"
+    },
+    {
+      "title": "Junior Python developer",
+      "salary": 115000,
+      "link": "https://hh.ru/vacancy/120877600",
+      "company": "Эквариум",
+      "date": "2025-06-03T16:29:43+0300"
+    },
+    {
+      "title": "Junior ML Разработчик / Аналитик Данных",
+      "salary": 165000,
+      "link": "https://hh.ru/vacancy/120494149",
+      "company": "Батенев Родион Евгеньевич",
+      "date": "2025-05-13T18:14:03+0300"
+    },
+    {
+      "title": "Java Developer (middle)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120882275",
+      "company": "Московский филиал АО ЦентрИнформ",
+      "date": "2025-06-03T18:00:42+0300"
+    },
+    {
+      "title": "AI-Developer / Архитектор искусственного продажника + ИИ-маркетинга",
+      "salary": 425000,
+      "link": "https://hh.ru/vacancy/121397877",
+      "company": "Million Miles",
+      "date": "2025-06-05T18:49:51+0300"
+    },
+    {
+      "title": "Разработчик Python",
+      "salary": 243500,
+      "link": "https://hh.ru/vacancy/87838855",
+      "company": "ProfiStaff",
+      "date": "2025-06-04T10:56:38+0300"
+    },
+    {
+      "title": "Бекенд разработчик (Backend developer)",
+      "salary": 320000,
+      "link": "https://hh.ru/vacancy/120918068",
+      "company": "ИВИС, OOO",
+      "date": "2025-05-23T16:10:48+0300"
+    },
+    {
+      "title": "Frontend-разработчик (Middle. Vue | HTML+CSS)",
+      "salary": 160000,
+      "link": "https://hh.ru/vacancy/120488609",
+      "company": "Риверстарт",
+      "date": "2025-06-03T16:34:34+0300"
+    },
+    {
+      "title": "Инженер-программист / Программист встраиваемых систем / Инженер-электронщик",
+      "salary": 175000,
+      "link": "https://hh.ru/vacancy/120558144",
+      "company": "Эволюция Заряда",
+      "date": "2025-05-14T22:27:03+0300"
+    },
+    {
+      "title": "Администратор Linux",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/121180273",
+      "company": "Платформа ОФД",
+      "date": "2025-06-05T16:58:57+0300"
+    },
+    {
+      "title": "Разработчик чат ботов для telegram",
+      "salary": 75000,
+      "link": "https://hh.ru/vacancy/120729168",
+      "company": "Платформа",
+      "date": "2025-05-19T19:07:36+0300"
+    },
+    {
+      "title": "Разработчик Python",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120450630",
+      "company": "Кинофлекс",
+      "date": "2025-05-13T09:33:54+0300"
+    },
+    {
+      "title": "Python программист/разработчик",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/119218574",
+      "company": "Hi, Rockits!",
+      "date": "2025-06-02T19:54:43+0300"
+    },
+    {
+      "title": "Middle Python разработчик (Django)",
+      "salary": 205000,
+      "link": "https://hh.ru/vacancy/121038490",
+      "company": "Production IT",
+      "date": "2025-05-27T15:22:49+0300"
+    },
+    {
+      "title": "Senior Python Developer",
+      "salary": 390000,
+      "link": "https://hh.ru/vacancy/121254933",
+      "company": "OpenWeather Ltd.",
+      "date": "2025-06-05T20:45:30+0300"
+    },
+    {
+      "title": "Backend python developer",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/120461886",
+      "company": "ПромоДата",
+      "date": "2025-05-13T11:22:10+0300"
+    },
+    {
+      "title": "Data Engineer",
+      "salary": 330000,
+      "link": "https://hh.ru/vacancy/121140031",
+      "company": "Amex Development",
+      "date": "2025-06-04T16:57:10+0300"
+    },
+    {
+      "title": "Начинающий Python разработчик (работа с биологическими данными)",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/120553515",
+      "company": "ФГБУ ЦСП ФМБА России",
+      "date": "2025-05-14T17:38:14+0300"
+    },
+    {
+      "title": "Инженер-программист АСУ ТП (Разработчик ПО)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121252085",
+      "company": "Антарктис",
+      "date": "2025-06-02T18:15:13+0300"
+    },
+    {
+      "title": "Системный аналитик (web)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120688804",
+      "company": "РУТ КОД",
+      "date": "2025-05-19T10:31:40+0300"
+    },
+    {
+      "title": "Тестировщик",
+      "salary": 70000,
+      "link": "https://hh.ru/vacancy/120464147",
+      "company": "ПромоДата",
+      "date": "2025-05-13T11:47:47+0300"
+    },
+    {
+      "title": "Middle Python разработчик",
+      "salary": 135000,
+      "link": "https://hh.ru/vacancy/120496198",
+      "company": "RAZRABOT",
+      "date": "2025-05-13T20:53:21+0300"
+    },
+    {
+      "title": "Программист",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120539499",
+      "company": "ЧОП Центавр",
+      "date": "2025-06-04T14:46:09+0300"
+    },
+    {
+      "title": "Программист",
+      "salary": 162500,
+      "link": "https://hh.ru/vacancy/120761916",
+      "company": "ОПТОМЕД",
+      "date": "2025-06-04T13:09:20+0300"
+    },
+    {
+      "title": "Python-разработчик (парсинг)",
+      "salary": 110000,
+      "link": "https://hh.ru/vacancy/120701224",
+      "company": "Аптрейд",
+      "date": "2025-06-06T12:31:12+0300"
+    },
+    {
+      "title": "Middle Python (django) разработчик",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120824116",
+      "company": "Аптрейд",
+      "date": "2025-06-05T15:01:17+0300"
+    },
+    {
+      "title": "Project Manager / Проектный менеджер (офис)",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121384085",
+      "company": "Реал ИТ",
+      "date": "2025-06-05T13:56:23+0300"
+    },
+    {
+      "title": "Data Engineer",
+      "salary": 500000,
+      "link": "https://hh.ru/vacancy/119829954",
+      "company": "Rubbles",
+      "date": "2025-05-13T12:03:45+0300"
+    },
+    {
+      "title": "IT-специалист",
+      "salary": 145000,
+      "link": "https://hh.ru/vacancy/121049637",
+      "company": "Глебовская Екатерина Александровна",
+      "date": "2025-05-27T23:02:49+0300"
+    },
+    {
+      "title": "Angular Frontend Developer (Middle / Middle+)",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/121394863",
+      "company": "evrone.ru",
+      "date": "2025-06-05T17:04:11+0300"
+    },
+    {
+      "title": "Unreal Engine Generalist | Archviz",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120906414",
+      "company": "MARTA",
+      "date": "2025-05-23T12:52:53+0300"
+    },
+    {
+      "title": "ML Developer",
+      "salary": 310000,
+      "link": "https://hh.ru/vacancy/121254273",
+      "company": "КонсультантПлюс",
+      "date": "2025-06-02T19:41:51+0300"
+    },
+    {
+      "title": "ML\\AI & Python Developer (Junior)",
+      "salary": 70000,
+      "link": "https://hh.ru/vacancy/120836201",
+      "company": "Серчбустер",
+      "date": "2025-05-21T18:36:52+0300"
+    },
+    {
+      "title": "Python-разработчик (Senior)",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/121322176",
+      "company": "Watt",
+      "date": "2025-06-04T10:03:02+0300"
+    },
+    {
+      "title": "Backend-разработчик",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120819037",
+      "company": "AdCamp",
+      "date": "2025-05-21T13:47:56+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 570000,
+      "link": "https://hh.ru/vacancy/118572460",
+      "company": "Точка",
+      "date": "2025-06-05T18:21:31+0300"
+    },
+    {
+      "title": "Senior Manual QA специалист",
+      "salary": 140000,
+      "link": "https://hh.ru/vacancy/118713094",
+      "company": "Линсофтверпродакшн",
+      "date": "2025-05-23T13:11:29+0300"
+    },
+    {
+      "title": "Руководитель проектов",
+      "salary": 275000,
+      "link": "https://hh.ru/vacancy/119731577",
+      "company": "Кузьминова Алеся Игоревна",
+      "date": "2025-05-19T09:05:43+0300"
+    },
+    {
+      "title": "1С разработчик",
+      "salary": 205000,
+      "link": "https://hh.ru/vacancy/119853625",
+      "company": "БиАй Продакшн",
+      "date": "2025-05-23T10:12:35+0300"
+    },
+    {
+      "title": "Математик игр",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/121420380",
+      "company": "ПИКСМУВ",
+      "date": "2025-06-06T13:33:13+0300"
+    },
+    {
+      "title": "Технический писатель",
+      "salary": 185000,
+      "link": "https://hh.ru/vacancy/118661981",
+      "company": "ВижнЛабс (VisionLabs)",
+      "date": "2025-05-26T18:46:03+0300"
+    },
+    {
+      "title": "DevOps-инженер (Kubernetes)",
+      "salary": 402500,
+      "link": "https://hh.ru/vacancy/120996866",
+      "company": "Аклион",
+      "date": "2025-05-26T18:14:03+0300"
+    },
+    {
+      "title": "Middle Python developer",
+      "salary": 215000,
+      "link": "https://hh.ru/vacancy/120877523",
+      "company": "Эквариум",
+      "date": "2025-06-03T16:28:17+0300"
+    },
+    {
+      "title": "Инженер по разработке и интеграции AI-решений",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/121328429",
+      "company": "ВЛАДИС",
+      "date": "2025-06-04T11:21:11+0300"
+    },
+    {
+      "title": "Системный аналитик",
+      "salary": 235000,
+      "link": "https://hh.ru/vacancy/121252847",
+      "company": "СБЕР",
+      "date": "2025-06-02T18:37:10+0300"
+    },
+    {
+      "title": "Системный аналитик/Бизнес-аналитик",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/114811435",
+      "company": "АПТЕКА ВАША № 1",
+      "date": "2025-05-12T11:17:42+0300"
+    },
+    {
+      "title": "Ведущий программист (Embedded, ARM64)",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/121340747",
+      "company": "Heaad",
+      "date": "2025-06-04T14:16:51+0300"
+    },
+    {
+      "title": "Product Manager (middle/senior)",
+      "salary": 318500,
+      "link": "https://hh.ru/vacancy/120730037",
+      "company": "Tevian (ООО Технологии видеоанализа)",
+      "date": "2025-06-03T20:18:04+0300"
+    },
+    {
+      "title": "Middle / Senior Python Developer",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120718233",
+      "company": "B.ART",
+      "date": "2025-06-06T15:40:07+0300"
+    },
+    {
+      "title": "Разработчик Python (senior)",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/120916177",
+      "company": "Bewise.ai",
+      "date": "2025-05-23T15:39:41+0300"
+    },
+    {
+      "title": "Full-Stack Web Developer",
+      "salary": 325000,
+      "link": "https://hh.ru/vacancy/121224427",
+      "company": "Finsimco",
+      "date": "2025-06-02T13:51:11+0300"
+    },
+    {
+      "title": "SQL - разработчик",
+      "salary": 125000,
+      "link": "https://hh.ru/vacancy/121253661",
+      "company": "СтратоСфера",
+      "date": "2025-06-05T19:09:18+0300"
+    },
+    {
+      "title": "Разработчик C++",
+      "salary": 220000,
+      "link": "https://hh.ru/vacancy/120696593",
+      "company": "Райтек",
+      "date": "2025-06-06T11:45:50+0300"
+    },
+    {
+      "title": "Project Manager в Digital агентство",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121220803",
+      "company": "DOCLUB-TV",
+      "date": "2025-06-02T13:00:23+0300"
+    },
+    {
+      "title": "Инженер Linux / Middle or Senior Devops",
+      "salary": 400000,
+      "link": "https://hh.ru/vacancy/120545419",
+      "company": "Southbridge",
+      "date": "2025-05-14T16:07:02+0300"
+    },
+    {
+      "title": "Head QA/ Руководитель отдела тестирования",
+      "salary": 500000,
+      "link": "https://hh.ru/vacancy/120746318",
+      "company": "Work&Wolf",
+      "date": "2025-06-04T10:00:21+0300"
+    },
+    {
+      "title": "Инженер-программист",
+      "salary": 133000,
+      "link": "https://hh.ru/vacancy/120409508",
+      "company": "Топаз, НПП",
+      "date": "2025-05-12T13:38:37+0300"
+    },
+    {
+      "title": "Python backend developer",
+      "salary": 290000,
+      "link": "https://hh.ru/vacancy/120343968",
+      "company": "Ритейл-Процессинг",
+      "date": "2025-06-04T11:40:12+0300"
+    },
+    {
+      "title": "Python Backend Developer",
+      "salary": 175000,
+      "link": "https://hh.ru/vacancy/120359904",
+      "company": "ТПК Неаса",
+      "date": "2025-06-04T12:07:33+0300"
+    },
+    {
+      "title": "Тестировщик-автоматизатор (Python/JS)",
+      "salary": 160000,
+      "link": "https://hh.ru/vacancy/121307665",
+      "company": "Айти Базис",
+      "date": "2025-06-03T18:24:01+0300"
+    },
+    {
+      "title": "Python разработчик Middle+",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120836411",
+      "company": "EORA",
+      "date": "2025-06-05T18:46:37+0300"
+    },
+    {
+      "title": "Администратор - разработчик Jira",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/121082916",
+      "company": "Софтмус",
+      "date": "2025-05-28T13:34:23+0300"
+    },
+    {
+      "title": "Junior Python разработчик",
+      "salary": 70000,
+      "link": "https://hh.ru/vacancy/120383861",
+      "company": "Андреев Артём Александрович",
+      "date": "2025-06-05T10:01:04+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/119832949",
+      "company": "РБ",
+      "date": "2025-05-22T12:47:28+0300"
+    },
+    {
+      "title": "Системный аналитик (middle+)",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/119284411",
+      "company": "NEXTEPIC",
+      "date": "2025-06-04T12:03:49+0300"
+    },
+    {
+      "title": "Junior Data Scientist / ML-инженер",
+      "salary": 80000,
+      "link": "https://hh.ru/vacancy/120962486",
+      "company": "Сеть розничных магазинов Добрынинский. Кондитерская и гастрономия.",
+      "date": "2025-06-04T10:31:32+0300"
+    },
+    {
+      "title": "Fullstack-разработчик",
+      "salary": 275000,
+      "link": "https://hh.ru/vacancy/121380980",
+      "company": "Международный аэропорт Шереметьево",
+      "date": "2025-06-05T14:48:58+0300"
+    },
+    {
+      "title": "Python Developer / Разработчик",
+      "salary": 260000,
+      "link": "https://hh.ru/vacancy/120536600",
+      "company": "Онлайнсим",
+      "date": "2025-05-14T14:08:16+0300"
+    },
+    {
+      "title": "Ведущий инженер-разработчик ПО для специализированного буксировочного БПЛА",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121188780",
+      "company": "ЛДВ-ИНВЕСТ",
+      "date": "2025-05-31T17:51:17+0300"
+    },
+    {
+      "title": "Программист робототехник ROS",
+      "salary": 550000,
+      "link": "https://hh.ru/vacancy/120076559",
+      "company": "Марс Роботикс",
+      "date": "2025-05-29T14:17:28+0300"
+    },
+    {
+      "title": "Системный инженер",
+      "salary": 170000,
+      "link": "https://hh.ru/vacancy/121266499",
+      "company": "ЭКО центр АльтраВита",
+      "date": "2025-06-04T12:12:35+0300"
+    },
+    {
+      "title": "Middle + Python developer (Django/FastAPI) AdTech (в офисе)",
+      "salary": 215000,
+      "link": "https://hh.ru/vacancy/119931109",
+      "company": "Hyper AdTech",
+      "date": "2025-05-21T17:13:16+0300"
+    },
+    {
+      "title": "Технический писатель",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/119608553",
+      "company": "Tevian (ООО Технологии видеоанализа)",
+      "date": "2025-06-03T18:25:41+0300"
+    },
+    {
+      "title": "Инженер - программист для технической поддержки сайта",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/120842202",
+      "company": "ГКБ 1 им.Н.И.Пирогова",
+      "date": "2025-05-22T07:31:56+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120596858",
+      "company": "Носенков Александр Андреевич",
+      "date": "2025-05-15T15:51:11+0300"
+    },
+    {
+      "title": "SRE-инженер | DevOps-инженер (Middle | Senior )",
+      "salary": 270000,
+      "link": "https://hh.ru/vacancy/121208522",
+      "company": "Риверстарт",
+      "date": "2025-06-05T10:16:23+0300"
+    },
+    {
+      "title": "JUNIOR full starck разработчик, Москва",
+      "salary": 65000,
+      "link": "https://hh.ru/vacancy/119376133",
+      "company": "Межрегиональная инспекция Федеральной налоговой службы по централизованной обработке данных № 2",
+      "date": "2025-06-06T08:57:19+0300"
+    },
+    {
+      "title": "Python-разработчик FastAPI",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/120168568",
+      "company": "Реал ИТ",
+      "date": "2025-05-30T15:20:17+0300"
+    },
+    {
+      "title": "Разработчик бота для крипто торговли",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120357207",
+      "company": "Клягин Владимир Александрович",
+      "date": "2025-05-10T18:50:03+0300"
+    },
+    {
+      "title": "AI/ML - инженер",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120546180",
+      "company": "Васюков Владимир Владимирович",
+      "date": "2025-05-14T16:15:48+0300"
+    },
+    {
+      "title": "Python/C разработчик",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120422648",
+      "company": "ФГУ ФНЦ НИИСИ РАН",
+      "date": "2025-05-12T15:53:13+0300"
+    },
+    {
+      "title": "Python разработчик/Инженер данных (парсинг)",
+      "salary": 290000,
+      "link": "https://hh.ru/vacancy/121368388",
+      "company": "Лига Ставок",
+      "date": "2025-06-05T09:57:58+0300"
+    },
+    {
+      "title": "Инженер-электронщик",
+      "salary": 140000,
+      "link": "https://hh.ru/vacancy/121393202",
+      "company": "ИНУМИТ",
+      "date": "2025-06-05T16:28:04+0300"
+    },
+    {
+      "title": "Embedded инженер (Middle) в медтех стартап",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/121372142",
+      "company": "Максконсалт",
+      "date": "2025-06-05T10:49:15+0300"
+    },
+    {
+      "title": "Младший инженер по тестированию ПО (Linux)",
+      "salary": 99000,
+      "link": "https://hh.ru/vacancy/117152877",
+      "company": "Базальт СПО",
+      "date": "2025-05-15T08:52:34+0300"
+    },
+    {
+      "title": "PHP-разработчик",
+      "salary": 205000,
+      "link": "https://hh.ru/vacancy/120639335",
+      "company": "Технологии управления персоналом",
+      "date": "2025-06-06T15:06:09+0300"
+    },
+    {
+      "title": "Middle-backend разработчик",
+      "salary": 147500,
+      "link": "https://hh.ru/vacancy/120848438",
+      "company": "Автономная Некоммерческая организация Агентство Инвестиционного Развития Московской Области",
+      "date": "2025-05-22T09:23:01+0300"
+    },
+    {
+      "title": "Программист Python / C / C++ (промышленное и научное оборудование)",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120867006",
+      "company": "Центр инженерной физики МГУ",
+      "date": "2025-05-22T13:38:16+0300"
+    },
+    {
+      "title": "Бизнес-аналитик (Datalens)",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/121043040",
+      "company": "Онлайнбрэндc",
+      "date": "2025-06-05T16:35:39+0300"
+    },
+    {
+      "title": "AI Juniour Product Manager в экологии (ИИ продакт менеджер)",
+      "salary": 79500,
+      "link": "https://hh.ru/vacancy/120995227",
+      "company": "Фирма Триада",
+      "date": "2025-05-26T17:36:58+0300"
+    },
+    {
+      "title": "Разработчик RPA",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/121303590",
+      "company": "РСХБ-Интех",
+      "date": "2025-06-03T16:45:23+0300"
+    },
+    {
+      "title": "Middle Computer Vision Engineer",
+      "salary": 185000,
+      "link": "https://hh.ru/vacancy/121045869",
+      "company": "Смарт Мил Сервис",
+      "date": "2025-05-27T17:34:49+0300"
+    },
+    {
+      "title": "Инженер-разработчик",
+      "salary": 145000,
+      "link": "https://hh.ru/vacancy/121048676",
+      "company": "Точка Выбора, Кадровый центр",
+      "date": "2025-05-27T19:51:26+0300"
+    },
+    {
+      "title": "ML Developer",
+      "salary": 310000,
+      "link": "https://hh.ru/vacancy/121254059",
+      "company": "крупный производитель справочно-информационного ПО",
+      "date": "2025-06-02T19:27:17+0300"
+    },
+    {
+      "title": "Инженер-программист Python (01050-1)",
+      "salary": 95000,
+      "link": "https://hh.ru/vacancy/115205872",
+      "company": "Моринформсистема-Агат, Концерн",
+      "date": "2025-06-05T10:28:21+0300"
+    },
+    {
+      "title": "Middle C++ Engineer",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/118975530",
+      "company": "Спектральные Технологии",
+      "date": "2025-05-30T13:52:54+0300"
+    },
+    {
+      "title": "Разработчик С и С++",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121350980",
+      "company": "Смарт Энджинс Сервис",
+      "date": "2025-06-04T16:53:47+0300"
+    },
+    {
+      "title": "C++ разработчик (БПЛА)",
+      "salary": 280000,
+      "link": "https://hh.ru/vacancy/120454983",
+      "company": "АЙТИ КА",
+      "date": "2025-05-13T10:15:52+0300"
+    },
+    {
+      "title": "Программист",
+      "salary": 170000,
+      "link": "https://hh.ru/vacancy/120747236",
+      "company": "ФГБУК Государственный Кремлевский Дворец Управления делами Президента Российской Федерации",
+      "date": "2025-05-20T10:10:00+0300"
+    },
+    {
+      "title": "SQL-разработчик",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120648017",
+      "company": "Артвелл",
+      "date": "2025-06-03T17:30:15+0300"
+    },
+    {
+      "title": "Программист-стажер 1С (удаленный формат работы)",
+      "salary": 40000,
+      "link": "https://hh.ru/vacancy/121123128",
+      "company": "РС Консалт",
+      "date": "2025-05-29T12:31:34+0300"
+    },
+    {
+      "title": "Администратор баз данных (SQL)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121068141",
+      "company": "РОСТ",
+      "date": "2025-06-06T10:13:54+0300"
+    },
+    {
+      "title": "Product Analyst / Продуктовый аналитик",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120592038",
+      "company": "Passportivity",
+      "date": "2025-06-04T15:05:27+0300"
+    },
+    {
+      "title": "Python-разработчик / ML-инженер для ИИ-ассистента",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121362760",
+      "company": "Версаль",
+      "date": "2025-06-05T08:37:09+0300"
+    },
+    {
+      "title": "Разработчик встраиваемых систем\\Senior embedded developer",
+      "salary": 700000,
+      "link": "https://hh.ru/vacancy/118285271",
+      "company": "Алабуга, ОЭЗ ППТ",
+      "date": "2025-06-04T16:40:02+0300"
+    },
+    {
+      "title": "Power BI разработчик",
+      "salary": 140000,
+      "link": "https://hh.ru/vacancy/120898990",
+      "company": "Data-Power",
+      "date": "2025-06-04T10:57:04+0300"
+    },
+    {
+      "title": "Разработчик java (android)",
+      "salary": 500000,
+      "link": "https://hh.ru/vacancy/121227019",
+      "company": "Первый Бит",
+      "date": "2025-06-02T14:25:17+0300"
+    },
+    {
+      "title": "Windows drivers developer (C/C++)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120583774",
+      "company": "АВ Софт",
+      "date": "2025-05-15T12:46:11+0300"
+    },
+    {
+      "title": "Middle Flutter / Backend Developer",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121314687",
+      "company": "Хисамутдинов Артём Аликович",
+      "date": "2025-06-04T07:55:24+0300"
+    },
+    {
+      "title": "Middle Backend разработчик (Python + Golang)",
+      "salary": 265000,
+      "link": "https://hh.ru/vacancy/119549607",
+      "company": "Tevian (ООО Технологии видеоанализа)",
+      "date": "2025-06-05T14:29:40+0300"
+    },
+    {
+      "title": "ML-инженер (видеохостинг, highload)",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/121170497",
+      "company": "NM TEAM SOCIAL MEDIA APPLICATIONS DEVELOPMENT & MANAGEMENT CO. L.L.C",
+      "date": "2025-06-05T14:07:52+0300"
+    },
+    {
+      "title": "Backend разработчик (Python / Go)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120467395",
+      "company": "ЭЙП ТЕКНОЛОДЖИ",
+      "date": "2025-06-06T12:21:55+0300"
+    },
+    {
+      "title": "Senior Frontend разработчик/Team lead",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/120546870",
+      "company": "IMOT.IO",
+      "date": "2025-06-04T16:25:23+0300"
+    },
+    {
+      "title": "DevOps-инженер",
+      "salary": 500000,
+      "link": "https://hh.ru/vacancy/120421808",
+      "company": "AYA Group",
+      "date": "2025-05-12T15:44:06+0300"
+    },
+    {
+      "title": "Руководитель отдела разработки",
+      "salary": 400000,
+      "link": "https://hh.ru/vacancy/120526076",
+      "company": "Бегачева Екатерина Борисовна",
+      "date": "2025-05-14T11:54:48+0300"
+    },
+    {
+      "title": "Аналитик данных в продукт",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120083318",
+      "company": "Платформа Проще",
+      "date": "2025-06-03T11:52:35+0300"
+    },
+    {
+      "title": "ML Разработчик",
+      "salary": 215000,
+      "link": "https://hh.ru/vacancy/120494255",
+      "company": "Батенев Родион Евгеньевич",
+      "date": "2025-05-13T18:19:35+0300"
+    },
+    {
+      "title": "Ведущий программист С\\С++ (embedded systems)",
+      "salary": 450000,
+      "link": "https://hh.ru/vacancy/120512281",
+      "company": "Цифровая независимость",
+      "date": "2025-05-14T09:53:02+0300"
+    },
+    {
+      "title": "Стажер-разработчик 1С",
+      "salary": 33116,
+      "link": "https://hh.ru/vacancy/121355161",
+      "company": "Компания Trisoft",
+      "date": "2025-06-04T19:09:54+0300"
+    },
+    {
+      "title": "Разработчик автоматизации бизнес-процессов с ИИ",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/119058012",
+      "company": "ПерилаГлавСнаб",
+      "date": "2025-06-04T12:55:57+0300"
+    },
+    {
+      "title": "Дата инженер/Инженер по обработке данных (Middle)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120510533",
+      "company": "Стрит Фалькон",
+      "date": "2025-06-04T09:44:35+0300"
+    },
+    {
+      "title": "Разработчик-аналитик SQL (Middle)",
+      "salary": 140000,
+      "link": "https://hh.ru/vacancy/121032597",
+      "company": "ДИКСИ, группа компаний",
+      "date": "2025-05-27T13:58:06+0300"
+    },
+    {
+      "title": "Инженер-разработчик",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121156804",
+      "company": "Сенсорика-М",
+      "date": "2025-06-05T10:13:04+0300"
+    },
+    {
+      "title": "Разработчик бэкенда в группу спецпроектов Доставки",
+      "salary": 400000,
+      "link": "https://hh.ru/vacancy/120333110",
+      "company": "Яндекс",
+      "date": "2025-05-07T16:39:26+0300"
+    },
+    {
+      "title": "Биостатистик (лаборатория разработки новых методов молекулярной диагностики заболеваний человека)",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/120919386",
+      "company": "ФГБУ ЦСП ФМБА России",
+      "date": "2025-05-23T16:35:41+0300"
+    },
+    {
+      "title": "ML-разработчик компьютерного зрения",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/118048843",
+      "company": "ProfiStaff",
+      "date": "2025-05-27T13:53:31+0300"
+    },
+    {
+      "title": "Инженер данных Power BI Middle",
+      "salary": 125000,
+      "link": "https://hh.ru/vacancy/120604841",
+      "company": "Зеробит",
+      "date": "2025-05-15T18:49:43+0300"
+    },
+    {
+      "title": "Python разработчик middle/senior",
+      "salary": 240000,
+      "link": "https://hh.ru/vacancy/120540760",
+      "company": "Свистунова Екатерина Александровна",
+      "date": "2025-06-04T15:05:12+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 60000,
+      "link": "https://hh.ru/vacancy/120824727",
+      "company": "ProfPass",
+      "date": "2025-05-21T15:08:41+0300"
+    },
+    {
+      "title": "Data analytics lead",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/120687226",
+      "company": "Кадровое агентство ЕВА",
+      "date": "2025-05-19T10:16:02+0300"
+    },
+    {
+      "title": "Программист С++",
+      "salary": 125000,
+      "link": "https://hh.ru/vacancy/103777222",
+      "company": "Российские космические системы",
+      "date": "2025-06-02T10:09:31+0300"
+    },
+    {
+      "title": "Project manager в Edtech (удаленно)",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/120533797",
+      "company": "Университет искусственного интеллекта",
+      "date": "2025-06-04T13:32:58+0300"
+    },
+    {
+      "title": "Middle T-SQL программист.",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/114811554",
+      "company": "АПТЕКА ВАША № 1",
+      "date": "2025-05-12T11:17:44+0300"
+    },
+    {
+      "title": "Бизнес-аналитик",
+      "salary": 170000,
+      "link": "https://hh.ru/vacancy/120330198",
+      "company": "ANCOR",
+      "date": "2025-05-27T16:09:13+0300"
+    },
+    {
+      "title": "Специалист по автоматизации тестирования / QA Engineer",
+      "salary": 160000,
+      "link": "https://hh.ru/vacancy/119277864",
+      "company": "Эко-мед-ИС",
+      "date": "2025-05-08T11:53:36+0300"
+    },
+    {
+      "title": "AI Backend-разработчик middle",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/120836989",
+      "company": "ВИАВЕЙ",
+      "date": "2025-05-21T19:38:19+0300"
+    },
+    {
+      "title": "Специалист по (RL) NVIDIA Isaac",
+      "salary": 180000,
+      "link": "https://hh.ru/vacancy/120974218",
+      "company": "Интеллект Машин",
+      "date": "2025-05-26T12:40:06+0300"
+    },
+    {
+      "title": "Инженер-программист",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120776635",
+      "company": "Центр инженерной физики МГУ",
+      "date": "2025-05-20T16:23:25+0300"
+    },
+    {
+      "title": "Разработчик рейтинговой системы",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120763601",
+      "company": "Смирнов Александр Максимович",
+      "date": "2025-05-20T13:32:01+0300"
+    },
+    {
+      "title": "Программист 1С/Разработчик 1С",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/120357886",
+      "company": "МАКСИМА",
+      "date": "2025-05-11T02:48:31+0300"
+    },
+    {
+      "title": "IT Infrastructure Manager (Senior DevOps)",
+      "salary": 400000,
+      "link": "https://hh.ru/vacancy/120782991",
+      "company": "Ventra",
+      "date": "2025-05-20T18:54:23+0300"
+    },
+    {
+      "title": "Программист-алгоритмист",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121014903",
+      "company": "Наймиум",
+      "date": "2025-06-05T09:59:22+0300"
+    },
+    {
+      "title": "Старший программист-разработчик (Python/Django) / Senior back-end developer",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/120245900",
+      "company": "CATAPULTO.RU",
+      "date": "2025-06-02T14:32:01+0300"
+    },
+    {
+      "title": "Программист C#",
+      "salary": 111300,
+      "link": "https://hh.ru/vacancy/120458743",
+      "company": "ГБУ ГлавАПУ",
+      "date": "2025-05-22T09:18:08+0300"
+    },
+    {
+      "title": "Python-разработчик",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/118591608",
+      "company": "MANGO FZCO",
+      "date": "2025-04-18T14:03:55+0300"
+    },
+    {
+      "title": "Тестировщик-автоматизатор",
+      "salary": 185000,
+      "link": "https://hh.ru/vacancy/120464022",
+      "company": "Бриф",
+      "date": "2025-05-13T11:46:10+0300"
+    },
+    {
+      "title": "Аналитик данных / разработчик SQL",
+      "salary": 75000,
+      "link": "https://hh.ru/vacancy/118143715",
+      "company": "Межрегиональный Информационный Центр Фонда Пенсионного и Социального Страхования Российской Федерации",
+      "date": "2025-05-09T16:28:40+0300"
+    },
+    {
+      "title": "Инженер-программист",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/108911363",
+      "company": "Кадровое агентство Аспект",
+      "date": "2025-05-11T23:45:02+0300"
+    },
+    {
+      "title": "Back-end Разработчик в IT компанию",
+      "salary": 65000,
+      "link": "https://hh.ru/vacancy/120488804",
+      "company": "Digital Agency Rubikon",
+      "date": "2025-06-03T16:37:23+0300"
+    },
+    {
+      "title": "Программист-разработчик Python",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/116694017",
+      "company": "Красное & Белое, розничная сеть",
+      "date": "2025-06-06T10:48:53+0300"
+    },
+    {
+      "title": "Product analyst/Продуктовый аналитик (Gamedev)",
+      "salary": 230000,
+      "link": "https://hh.ru/vacancy/120362231",
+      "company": "FunFlow (ООО Мобильные Игровые Решения)",
+      "date": "2025-05-11T18:58:28+0300"
+    },
+    {
+      "title": "TL Data Scientist",
+      "salary": 459000,
+      "link": "https://hh.ru/vacancy/117519659",
+      "company": "Платформа ОФД",
+      "date": "2025-06-05T12:59:15+0300"
+    },
+    {
+      "title": "Программист-разработчик Flutterflow",
+      "salary": 145000,
+      "link": "https://hh.ru/vacancy/121184186",
+      "company": "Шестопалов Алексей Иванович",
+      "date": "2025-05-30T22:04:31+0300"
+    },
+    {
+      "title": "Разработчик системы обработки видео (С++, OpenCV)",
+      "salary": 210000,
+      "link": "https://hh.ru/vacancy/121421465",
+      "company": "Уникальные Волоконные Приборы - Комплексные Системы",
+      "date": "2025-06-06T13:56:32+0300"
+    },
+    {
+      "title": "Technical Support Engineer / Инженер технической поддержки торговой платформы (B2B)",
+      "salary": 95000,
+      "link": "https://hh.ru/vacancy/121020766",
+      "company": "НТ Прогресс",
+      "date": "2025-06-05T11:08:41+0300"
+    },
+    {
+      "title": "Программист-автоматизатор бизнес-процессов",
+      "salary": 75000,
+      "link": "https://hh.ru/vacancy/120821542",
+      "company": "AVI",
+      "date": "2025-06-05T14:21:31+0300"
+    },
+    {
+      "title": "Программист",
+      "salary": 100000,
+      "link": "https://hh.ru/vacancy/121092349",
+      "company": "Розан",
+      "date": "2025-06-03T16:02:24+0300"
+    },
+    {
+      "title": "Fullstack-разработчик",
+      "salary": 180000,
+      "link": "https://hh.ru/vacancy/120578662",
+      "company": "ДиСиЛоджик",
+      "date": "2025-05-15T11:34:45+0300"
+    },
+    {
+      "title": "Программист С++ Senior",
+      "salary": 550000,
+      "link": "https://hh.ru/vacancy/103767759",
+      "company": "Дубайт",
+      "date": "2025-06-05T12:34:30+0300"
+    },
+    {
+      "title": "Ведущий инженер внедрения и сопровождения IT продукта",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/119545161",
+      "company": "ДипХакЛаб",
+      "date": "2025-06-05T13:20:18+0300"
+    },
+    {
+      "title": "Разработчик Python",
+      "salary": 240000,
+      "link": "https://hh.ru/vacancy/105133634",
+      "company": "ИЦ АЙ-ТЕКО",
+      "date": "2025-06-06T13:29:51+0300"
+    },
+    {
+      "title": "Ведущий разработчик С++ (Qt) (офис)",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/120884947",
+      "company": "Heaad",
+      "date": "2025-05-22T23:33:46+0300"
+    },
+    {
+      "title": "Инженер технической поддержки",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/113298915",
+      "company": "AERODISK",
+      "date": "2025-06-04T18:38:32+0300"
+    },
+    {
+      "title": "Site Reliability Engineer (SRE)/Sysadmin junior",
+      "salary": 220000,
+      "link": "https://hh.ru/vacancy/104344551",
+      "company": "ABCP",
+      "date": "2025-06-02T15:37:50+0300"
+    },
+    {
+      "title": "Аналитик-разработчик по BI системе",
+      "salary": 220000,
+      "link": "https://hh.ru/vacancy/120615911",
+      "company": "Уголь-Транс",
+      "date": "2025-06-06T09:19:06+0300"
+    },
+    {
+      "title": "Middle Разработчик на C/C++ под Linux",
+      "salary": 275000,
+      "link": "https://hh.ru/vacancy/120743602",
+      "company": "Квантбокс",
+      "date": "2025-06-04T09:29:21+0300"
+    },
+    {
+      "title": "SW Automation Engineer / Инженер по развертыванию",
+      "salary": 220000,
+      "link": "https://hh.ru/vacancy/121027354",
+      "company": "Телум",
+      "date": "2025-05-27T12:36:03+0300"
+    },
+    {
+      "title": "ML-инженер",
+      "salary": 217000,
+      "link": "https://hh.ru/vacancy/121044159",
+      "company": "Научно-Производственное Объединение Интеллектуальные Технические Системы",
+      "date": "2025-06-05T16:58:33+0300"
+    },
+    {
+      "title": "ML/CV backend разработчик (python)",
+      "salary": 340000,
+      "link": "https://hh.ru/vacancy/120700222",
+      "company": "Алео-Альянс",
+      "date": "2025-06-06T12:22:52+0300"
+    },
+    {
+      "title": "PHP Backend-разработчик (Middle+)",
+      "salary": 180000,
+      "link": "https://hh.ru/vacancy/121014466",
+      "company": "ПРО-Интерактив",
+      "date": "2025-05-29T16:04:44+0300"
+    },
+    {
+      "title": "Senior Python developer/ Ведущий разработчик (FastAPI)",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/121429460",
+      "company": "Эквариум",
+      "date": "2025-06-06T16:29:17+0300"
+    },
+    {
+      "title": "Аналитик",
+      "salary": 170000,
+      "link": "https://hh.ru/vacancy/120276299",
+      "company": "ANCOR",
+      "date": "2025-05-27T11:49:11+0300"
+    },
+    {
+      "title": "Cтарший инженер DevOps",
+      "salary": 285000,
+      "link": "https://hh.ru/vacancy/120647041",
+      "company": "Royal Software",
+      "date": "2025-05-30T12:57:08+0300"
+    },
+    {
+      "title": "Системный аналитик/Специалист по написанию технических заданий для разработки",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/120643267",
+      "company": "Городской информационный центр Инфосити",
+      "date": "2025-05-16T16:07:05+0300"
+    },
+    {
+      "title": "Инженер-электронщик (cхемотехник/программист микроконтроллеров)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121114554",
+      "company": "Волга",
+      "date": "2025-06-04T10:30:50+0300"
+    },
+    {
+      "title": "Специалист по информационной безопасности (Программист)",
+      "salary": 90000,
+      "link": "https://hh.ru/vacancy/120922507",
+      "company": "Ансер про",
+      "date": "2025-05-23T17:43:56+0300"
+    },
+    {
+      "title": "Бизнес-аналитик",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120466719",
+      "company": "Московский филиал АО ЦентрИнформ",
+      "date": "2025-05-13T12:15:41+0300"
+    },
+    {
+      "title": "Инженер - программист ПЛК",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120985701",
+      "company": "Independent Energy",
+      "date": "2025-05-26T15:10:55+0300"
+    },
+    {
+      "title": "Продуктовый аналитик",
+      "salary": 220000,
+      "link": "https://hh.ru/vacancy/120539907",
+      "company": "Кибертех",
+      "date": "2025-05-23T12:18:46+0300"
+    },
+    {
+      "title": "Инженер-программист микроконтроллеров",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120627778",
+      "company": "СИРИУС",
+      "date": "2025-05-16T12:03:56+0300"
+    },
+    {
+      "title": "Инженер отдела технической поддержки ОС Альт",
+      "salary": 120000,
+      "link": "https://hh.ru/vacancy/119970538",
+      "company": "Промышленная Автоматика",
+      "date": "2025-05-25T09:54:14+0300"
+    },
+    {
+      "title": "Разработчик нейросетевых алгоритмов/Reinforcement Learning",
+      "salary": 60000,
+      "link": "https://hh.ru/vacancy/120647592",
+      "company": "Федеральное автономное учреждение Государственный Научно-Исследовательский Институт Авиационных Систем",
+      "date": "2025-06-03T17:18:22+0300"
+    },
+    {
+      "title": "Старший аналитик данных / разработчик SQL",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/119031609",
+      "company": "Межрегиональный Информационный Центр Фонда Пенсионного и Социального Страхования Российской Федерации",
+      "date": "2025-05-31T15:16:11+0300"
+    },
+    {
+      "title": "Руководитель команды разработки/TeamLead (Java, ML)",
+      "salary": 450000,
+      "link": "https://hh.ru/vacancy/120882155",
+      "company": "DM Solutions",
+      "date": "2025-05-22T17:54:51+0300"
+    },
+    {
+      "title": "Инженер-тестировщик ПО и аппаратных средств",
+      "salary": 230000,
+      "link": "https://hh.ru/vacancy/119905205",
+      "company": "ProfiStaff",
+      "date": "2025-05-21T10:01:44+0300"
+    },
+    {
+      "title": "Python-разработчик/GO",
+      "salary": 240000,
+      "link": "https://hh.ru/vacancy/120440111",
+      "company": "ИЦ АЙ-ТЕКО",
+      "date": "2025-05-13T06:18:07+0300"
+    },
+    {
+      "title": "Системный аналитик DWH",
+      "salary": 205000,
+      "link": "https://hh.ru/vacancy/120485173",
+      "company": "Онлайн-школа Фоксфорд",
+      "date": "2025-05-13T15:49:47+0300"
+    },
+    {
+      "title": "Web-разработчик (python/javascript)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121048256",
+      "company": "Баззула Рекламные Технологии",
+      "date": "2025-06-05T19:04:45+0300"
+    },
+    {
+      "title": "DevSecOps инженер",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121125416",
+      "company": "DM Solutions",
+      "date": "2025-05-29T13:05:37+0300"
+    },
+    {
+      "title": "PHP разработчик (в команду DevOps)",
+      "salary": 215000,
+      "link": "https://hh.ru/vacancy/120545881",
+      "company": "Leads",
+      "date": "2025-06-04T16:12:13+0300"
+    },
+    {
+      "title": "Python-разработчик (full stack) в офис",
+      "salary": 170000,
+      "link": "https://hh.ru/vacancy/120745916",
+      "company": "АРХБУМ",
+      "date": "2025-05-20T09:55:50+0300"
+    },
+    {
+      "title": "Firebird Разработчик",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/121035649",
+      "company": "Ассоциация IPChain",
+      "date": "2025-05-27T14:41:02+0300"
+    },
+    {
+      "title": "Fullstack-разработчик (Python и React.JS)",
+      "salary": 350000,
+      "link": "https://hh.ru/vacancy/120338330",
+      "company": "Chad AI",
+      "date": "2025-06-03T19:46:08+0300"
+    },
+    {
+      "title": "Embedded –программист (микроконтроллеры)",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/118896369",
+      "company": "НПО «Радиозавод им. А.С. Попова»",
+      "date": "2025-05-21T08:11:13+0300"
+    },
+    {
+      "title": "Системный архитектор",
+      "salary": 500000,
+      "link": "https://hh.ru/vacancy/115944740",
+      "company": "Линсофтверпродакшн",
+      "date": "2025-05-20T16:14:19+0300"
+    },
+    {
+      "title": "Системный аналитик (продукт «Фактор»)",
+      "salary": 190000,
+      "link": "https://hh.ru/vacancy/121114575",
+      "company": "HFLabs",
+      "date": "2025-06-04T10:31:04+0300"
+    },
+    {
+      "title": "DevOps-инженер",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120536947",
+      "company": "24 часа ТВ",
+      "date": "2025-05-14T14:11:48+0300"
+    },
+    {
+      "title": "Программист (C#/.NET-разработчик)",
+      "salary": 260000,
+      "link": "https://hh.ru/vacancy/120804995",
+      "company": "ЧИП и ДИП",
+      "date": "2025-06-05T10:53:29+0300"
+    },
+    {
+      "title": "Аналитик DWH Senior",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/120415735",
+      "company": "Volna.tech",
+      "date": "2025-05-12T14:38:33+0300"
+    },
+    {
+      "title": "Junior / Middle AI Agent Engineer LLM (AI инженер)",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/119952246",
+      "company": "МФТИ",
+      "date": "2025-05-21T13:03:09+0300"
+    },
+    {
+      "title": "Аналитик маркетплейсов / Аналитик e-commerce",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120542627",
+      "company": "Опт-Юнион",
+      "date": "2025-06-04T15:26:50+0300"
+    },
+    {
+      "title": "Senior Python developer (FastAPI)",
+      "salary": 575000,
+      "link": "https://hh.ru/vacancy/120845996",
+      "company": "Mindbox",
+      "date": "2025-06-06T07:10:08+0300"
+    },
+    {
+      "title": "Инженер-разработчик",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120762122",
+      "company": "Интелион Дата",
+      "date": "2025-06-04T13:12:06+0300"
+    },
+    {
+      "title": "Backend разработчик (senior / Python / Django / агрегатор туров)",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/120452492",
+      "company": "Туроператор Русь",
+      "date": "2025-06-06T09:52:48+0300"
+    },
+    {
+      "title": "Разработчик С++ (junior)",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/120504996",
+      "company": "Уникальные Волоконные Приборы - Комплексные Системы",
+      "date": "2025-05-14T08:36:05+0300"
+    },
+    {
+      "title": "Team Lead Bitrix24",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121334711",
+      "company": "Евразия Консалтинг",
+      "date": "2025-06-04T12:52:41+0300"
+    },
+    {
+      "title": "Java разработчик с нуля (стажер)",
+      "salary": 75000,
+      "link": "https://hh.ru/vacancy/120569378",
+      "company": "Aston",
+      "date": "2025-06-05T09:42:10+0300"
+    },
+    {
+      "title": "Инженер-программист микроконтроллеров",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120518816",
+      "company": "ОКБ Нефтегаздиагностика",
+      "date": "2025-06-04T10:39:07+0300"
+    },
+    {
+      "title": "DevOps инженер",
+      "salary": 200000,
+      "link": "https://hh.ru/vacancy/120472231",
+      "company": "Среда Капитал",
+      "date": "2025-05-13T13:17:04+0300"
+    },
+    {
+      "title": "Инженер ОТК/Контролер ОТК",
+      "salary": 130000,
+      "link": "https://hh.ru/vacancy/121145419",
+      "company": "AERODISK",
+      "date": "2025-06-04T19:20:00+0300"
+    },
+    {
+      "title": "Fullstack-разработчик/ PHP-программист",
+      "salary": 150000,
+      "link": "https://hh.ru/vacancy/120717394",
+      "company": "ФКУ Цифровая Культура",
+      "date": "2025-05-19T15:28:20+0300"
+    },
+    {
+      "title": "Инженер-программист",
+      "salary": 205000,
+      "link": "https://hh.ru/vacancy/117811244",
+      "company": "Интертехэлектро",
+      "date": "2025-05-22T09:38:44+0300"
+    },
+    {
+      "title": "Программист javascript (three.js, WebGL)",
+      "salary": 300000,
+      "link": "https://hh.ru/vacancy/115604228",
+      "company": "Ремпланнер",
+      "date": "2025-06-04T07:24:22+0300"
+    },
+    {
+      "title": "Backend Программист С++ (Middle)",
+      "salary": 250000,
+      "link": "https://hh.ru/vacancy/121115263",
+      "company": "ГЕТ ЭКСПЕРТС РЕКРУТМЕНТ",
+      "date": "2025-05-29T10:39:44+0300"
+    },
+    {
+      "title": "FullStack Разработчик 3D+CUDA (С++, Qt)",
+      "salary": 235000,
+      "link": "https://hh.ru/vacancy/121393119",
+      "company": "НЭПТ",
+      "date": "2025-06-05T16:26:34+0300"
+    },
+    {
+      "title": "Ведущий специалист по информационной безопасности (Программист)",
+      "salary": 140000,
+      "link": "https://hh.ru/vacancy/120922614",
+      "company": "Ансер про",
+      "date": "2025-05-23T17:47:37+0300"
+    },
+    {
+      "title": "Аналитик маркетплейсов / аналитик по продукту / продуктовый аналитик",
+      "salary": 225000,
+      "link": "https://hh.ru/vacancy/120269249",
+      "company": "Опт-Юнион",
+      "date": "2025-06-03T16:34:51+0300"
+    }
+  ]
+}
