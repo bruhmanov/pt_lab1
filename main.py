@@ -244,8 +244,6 @@ def main():
     try:
         city_num = int(input("\nВыберите город (1-3): "))
         selected_city = CITIES.get(city_num)
-        if not selected_city:
-            raise ValueError("Нет такого города")
 
         query = input("Введите название профессии: ").strip()
 
