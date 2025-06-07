@@ -1,15 +1,14 @@
 import requests
-import statistics
 import matplotlib.pyplot as plt
 import json
 import numpy as np
-from scipy.stats import norm
 
 CITIES = {
     1: {'name': 'Москва', 'code': 1},
     2: {'name': 'Санкт-Петербург', 'code': 2},
     3: {'name': 'Казань', 'code': 88}
 }
+
 
 def get_vacancies_from_hh(search_text, city_code, max_pages=3):
     vacancies = []
@@ -49,6 +48,7 @@ def get_vacancies_from_hh(search_text, city_code, max_pages=3):
 
     return vacancies
 
+
 def parse_salary(salary_data):
     if not salary_data or salary_data.get('currency') != 'RUR':
         return None
@@ -60,27 +60,62 @@ def parse_salary(salary_data):
         return (salary_from + salary_to) // 2
     return salary_from or salary_to
 
+
+def calculate_mean(salaries):
+    return sum(salaries) / len(salaries)
+
+
+def calculate_variance(salaries, mean):
+    return sum((x - mean) ** 2 for x in salaries) / len(salaries)
+
+
+def calculate_quantile(salaries, q):
+    sorted_salaries = sorted(salaries)
+    index = (len(sorted_salaries) - 1) * q
+    lower = int(index)
+    delta = index - lower
+
+    if lower + 1 < len(sorted_salaries):
+        return sorted_salaries[lower] * (1 - delta) + sorted_salaries[lower + 1] * delta
+    return sorted_salaries[lower]
+
+
 def calculate_stats(salaries):
     if not salaries:
         return None
 
-    q1 = int(np.quantile(salaries, 0.25))
-    q3 = int(np.quantile(salaries, 0.75))
+    sorted_salaries = sorted(salaries)
+    n = len(sorted_salaries)
+
+    min_val = sorted_salaries[0]
+    max_val = sorted_salaries[-1]
+    range_val = max_val - min_val
+
+    mean_val = calculate_mean(salaries)
+    variance_val = calculate_variance(salaries, mean_val)
+    stdev_val = variance_val ** 0.5
+
+    q1 = calculate_quantile(sorted_salaries, 0.25)
+    median = calculate_quantile(sorted_salaries, 0.5)
+    q3 = calculate_quantile(sorted_salaries, 0.75)
+    iqr = q3 - q1
 
     stats = {
-        'count': len(salaries),
-        'min': min(salaries),
-        'max': max(salaries),
-        'mean': int(statistics.mean(salaries)),
-        'variance': int(statistics.variance(salaries)),
-        'stdev': int(statistics.stdev(salaries)),
-        'q1': q1,
-        'q3': q3,
-        'iqr': q3 - q1,
-        'median': int(statistics.median(salaries))
+        'count': n,
+        'min': min_val,
+        'max': max_val,
+        'range': range_val,
+        'mean': int(mean_val),
+        'variance': int(variance_val),
+        'stdev': int(stdev_val),
+        'q1': int(q1),
+        'median': int(median),
+        'q3': int(q3),
+        'iqr': int(iqr)
     }
 
     return stats
+
 
 def histogram(salaries, n_bins):
     min_salary = max(0, min(salaries))
@@ -100,12 +135,14 @@ def histogram(salaries, n_bins):
 
     return bins, freq_counts, prob_counts
 
+
 def empirical_cdf(salaries):
     sorted_salaries = sorted(salaries)
     n = len(sorted_salaries)
     x = sorted_salaries
     y = [i / n for i in range(1, n + 1)]
     return x, y
+
 
 def draw_plots(salaries, stats, title):
     plt.figure(figsize=(8, 6))
@@ -146,9 +183,12 @@ def draw_plots(salaries, stats, title):
     plt.bar(bins[:-1], prob_counts, width=bin_width, color='purple', edgecolor='black', alpha=0.7)
     plt.axvline(stats['mean'], color='red', linestyle='--', label=f'Среднее ({stats["mean"]:,} руб)')
     plt.axvline(stats['median'], color='blue', linestyle='-', label=f'Медиана ({stats["median"]:,} руб)')
+
     x = np.linspace(0, max(salaries), 100)
-    norm_density = norm.pdf(x, stats['mean'], stats['stdev']) * bin_width
+    norm_density = (1 / (stats['stdev'] * np.sqrt(2 * np.pi))) * np.exp(
+        -0.5 * ((x - stats['mean']) / stats['stdev']) ** 2) * bin_width
     plt.plot(x, norm_density, color='orange', label='Нормальное распределение')
+
     plt.legend()
     plt.xlabel('Зарплата (рубли)')
     plt.ylabel('Плотность вероятности')
@@ -169,6 +209,7 @@ def draw_plots(salaries, stats, title):
     plt.grid(True, alpha=0.3)
     plt.xlim(0, max(salaries) * 1.1)
     plt.show()
+
 
 def save_results(vacancies, stats, query, city_name):
     if not vacancies:
@@ -193,6 +234,7 @@ def save_results(vacancies, stats, query, city_name):
         print(f"Данные сохранены в файл: {filename}")
     except Exception as e:
         print(f"Ошибка при сохранении: {e}")
+
 
 def main():
     print("\nДоступные города:")
@@ -219,6 +261,7 @@ def main():
         print(f"\nРезультаты для '{query}' в {selected_city['name']}")
         print(f"Всего вакансий: {stats['count']}")
         print(f"Мин/Макс: {stats['min']:,} — {stats['max']:,} руб".replace(',', ' '))
+        print(f"Размах: {stats['range']:,} руб".replace(',', ' '))
         print(f"Средняя: {stats['mean']:,} руб".replace(',', ' '))
         print(f"Медиана: {stats['median']:,} руб".replace(',', ' '))
         print(f"Стандартное отклонение: ±{stats['stdev']:,} руб".replace(',', ' '))
@@ -235,6 +278,7 @@ def main():
         print(f"\nОшибка: {e}")
     except Exception as e:
         print(f"\nЧто-то пошло не так: {e}")
+
 
 if __name__ == '__main__':
     main()
